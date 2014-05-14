@@ -1,0 +1,39 @@
+depboard {
+			width: 300px;
+			height: 3em;
+			line-height: 3em;
+			display: inline-block;
+			font-family:Helvetica;
+			letter-spacing:5px;
+			font-size: 10px;
+			text-align: left;
+    		vertical-align: middle;
+    		padding-left: 2em;
+    		border: 1px solid #000;
+		    border-radius: 6px; 
+		    box-shadow: 0 5px 1px rgba(0,0,0,.9) ,0 1px 0 rgba(255,255,255,.3) inset ,0 0 1px rgba(255,255,255,1) inset;
+		    background: rgb(68,68,68); 
+		    background: -webkit-linear-gradient(top, rgba(20,20,20,1) 0%,rgba(40,40,40,1) 50%,rgba(20,20,20,1) 50.01%, rgba(70,70,70,1) 100%); 
+		    color: #eee;
+		    /*text-transform: uppercase;*/
+		    text-shadow: 0 -2px 3px #000;
+		    
+		}
+		depboard:hover
+		{
+			cursor: pointer;
+		}
+		depboard:hover span
+		{
+			font-weight: bold;
+			-webkit-transform: rotateX(360deg);
+			-webkit-transition: all 1s;
+		}
+		depboard span
+		{
+			display: inline-block;
+			text-align: center;
+			width: 3em;
+			/*border-left: 1px dashed #8e8e8e;*/
+			/*-webkit-transition: all 1s ease-in-out;*/
+		}
